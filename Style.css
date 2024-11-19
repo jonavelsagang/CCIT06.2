@@ -1,0 +1,191 @@
+:root{
+
+    --bg1:  
+}
+
+
+
+
+
+#banner{
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.856), rgba(44, 42, 42, 0.315)), url('c:\Users\jsagang\Desktop\ccit\iphone-se-finish-unselect-gallery-1-202207.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#banner h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#banner p{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.btn{
+    padding: 15px, 30px;
+    font-weight: 900;
+    border-bottom: 60px;
+    font-size: 18px;
+}
+
+.btn-success {
+    background-color: rgb(4, 4, 4);
+    color: #fff;
+    border: 2px solid #000000;
+}
+
+.btn-success:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #000000;
+}
+
+section{
+    padding: 100px 0 ;
+}
+
+#About{
+    background-color: rgb(0, 0, 0);
+}
+
+#About h2{
+    font-size: 50px;
+    font-family: 900;
+    color: rgb(241, 241, 241);
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+    border: 5px solid var(--border);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.card:hover{
+    background-color: #000000;
+}
+
+.card:hover .card-title, 
+.card:hover .card-text,
+.card:hover .btn {
+    color:aqua;
+}
+.card-body .btn{
+    padding: 15px, 30px;
+    font-weight: 900;
+    border-bottom: 60px;
+    font-size: 18px;
+}
+
+.card-body .btn-success {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.card-body .btn-success:hover{
+    background-color: black;
+    color: #03f740;
+    border: 2px, solid #ffffff;
+}
+
+#banner{
+    height: 70vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('c:\Users\jsagang\Desktop\ccit\IIST OF IPHONES.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#cta {
+    height: 70vh;
+    background: url('IIST OF IPHONES.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.testimonials {
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+}
+
+.testimonials a {
+    color: red;
+}
+
+#reviews h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+.testimonials a {
+    color: red;
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto ;  
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: aqua;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.accordion-body{
+    border-left: 3px solid red;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #fff;
+}
+.accordion-button:not(.collapsed){
+    background-color: red;
+color: #fff;
+}
+.accordion-button:hover{
+    background-color: red;
+    color: #fff;
+}
+#faq{
+    background-color: white;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: red;
+}
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul. list-unstyled li:hover a{
+    color:rgb(8, 47, 8) ;
+}
+.btn-outline-light{
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0=;
+}
